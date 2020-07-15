@@ -1,0 +1,2 @@
+# 2D-Cyberpunk-Scroller
+Small game made using pixel manipulation instead of gameObjects for the course "Image Processing" at Medialogy at Aalborg University.  The canvas is populated with colored pixels, and through button inputs the image pixel composition is rewritten at runtime in the update()-method. Collision checks are based on the pixels XY-position of the sub-images that are colored in on top of the background image, eg if at any time a box sub-image shares an XY-coordinate with the spaceship sub-image, they are colliding, and the next image becomes the death screen.
